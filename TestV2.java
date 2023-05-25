@@ -37,4 +37,9 @@ public class TestV2 {
         String result = V2.cocinar(7);
         Assertions.assertEquals("7",result);
     }
+    @Test
+    public void Test8(){
+        String result = V2.cocinar(8);
+        Assertions.assertEquals("8",result);
+    }
 }
