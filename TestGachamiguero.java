@@ -7,4 +7,9 @@ public class TestGachamiguero {
         String result = Gachamiguero.catar(1);
         Assertions.assertEquals("1",result);
     }
+    @Test
+    public void Test2(){
+        String result = Gachamiguero.catar(2);
+        Assertions.assertEquals("2",result);
+    }
 }
