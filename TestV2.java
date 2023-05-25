@@ -17,4 +17,9 @@ public class TestV2 {
         String result = V2.cocinar(3);
         Assertions.assertEquals("Gacha",result);
     }
+    @Test
+    public void Test4(){
+        String result = V2.cocinar(4);
+        Assertions.assertEquals("4",result);
+    }
 }
