@@ -52,4 +52,9 @@ public class TestV2 {
         String result = V2.cocinar(10);
         Assertions.assertEquals("Miga",result);
     }
+    @Test
+    public void Test11(){
+        String result = V2.cocinar(11);
+        Assertions.assertEquals("11",result);
+    }
 }
